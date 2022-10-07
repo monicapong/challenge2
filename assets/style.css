@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: rgb(74, 80, 95);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
+}
+  
+header h1 {
+    padding: 10px;
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: rgb(74, 80, 95);
+    background-color: rgb(0, 157, 157);
+    text-shadow: 0 0 9px rgba(0, 0, 0, 0.5);
+}
+  
+header a {
+    text-decoration: none;
+    color: rgb(0, 157, 157);
+}
+  
+header nav {
+    margin: 7px 0;
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+  
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+  
+header nav ul li a:hover {
+    color: rgb(4, 71, 71);
+    border-radius: 15px;
+    text-shadow: none;
+}  
+
+section {
+    padding: 60px;
+}
+  
+.hero {
+    background-image: url('images/cover-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px;    
+}
+
+.hero h2 {
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    float: right;
+    margin-top: 125px;
+    padding: 15px;
+    background-color: rgb(0, 157, 157);
+
+}
+
+.section {
+    background-color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: black;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    border-right: black solid 3px;
+}
+
+.section-title2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 15px;
+    color: black;
+    margin: 0 auto 0 auto;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    height: 1250px;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+}
+
+.flex-row2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+    border-left: black solid 3px;
+}
+
+.photo {
+    width: 10%;
+    height: auto;
+    padding-left: 1%;
+    border-radius: 50%;
+}
+
+.section p, .section a {
+    line-height: 1.5;
+    color: rgb(0, 157, 157);
+    text-decoration: none;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: justify;
+    padding: 0 15px 0 15px;
+}
+
+.about {
+    color: black;
+}
+
+.flex-row2 p {
+    display: inline-block;
+    text-align: start;
+    background-color: rgb(4, 71, 71);
+    opacity: 85%;
+    width: 45%;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+}
+
+.flex-row2 h2 {
+    display: inline-block;
+    text-align: start;
+    background-color: rgb(4, 71, 71);
+    opacity: 85%;
+    width: 45%;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+}
+
+.main-project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    height: 650px;
+    width: 100%;
+}
+
+.side-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    width: 100%;
+}
+
+.prework {
+    background-image: url("images/prework.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 0 1% 2% 1%;
+    position: relative;
+}
+
+.prework:hover {
+    opacity: 75%;
+}
+
+.horiseon {
+    background-image: url(images/horiseon.jpg);
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    position: relative;
+}
+
+.horiseon:hover {
+    opacity: 75%;
+}
+
+.portfolio {
+    background-image: url(images/portfolio.jpg);
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    position: relative; 
+}
+
+.portfolio:hover {
+    opacity: 75%;
+}
+
+.placeholder {
+    background-image: url(images/placeholder.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    position: relative; 
+}
+
+.placeholder:hover {
+    opacity: 75%;
+}
+
+footer {
+    padding-top: 100px;
+    background-color: rgb(74, 80, 95);
+}
+  
