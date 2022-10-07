@@ -1,13 +1,16 @@
+/* Global Styling */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+  
+/* Body Styling */
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
-
+  
+/* Header Styling */
 header {
     padding: 20px 35px;
     background-color: rgb(74, 80, 95);
@@ -62,11 +65,13 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }  
-
+  
+/* Section Global Styling */
 section {
     padding: 60px;
 }
   
+/* Hero Styling */
 .hero {
     background-image: url('images/cover-image.jpg');
     background-size: cover;
@@ -84,7 +89,8 @@ section {
     background-color: rgb(0, 157, 157);
 
 }
-
+    
+/* Main Content Styling */
 .section {
     background-color: whitesmoke;
     display: flex;
@@ -93,6 +99,7 @@ section {
     align-items: center;
 }
 
+/* "About Me" and "Contact Me" Sections Titles Styling */
 .section-title {
     display: flex;
     flex-wrap: wrap;
@@ -106,6 +113,7 @@ section {
     border-right: black solid 3px;
 }
 
+/* "Work" Title Styling */
 .section-title2 {
     display: flex;
     flex-wrap: wrap;
@@ -119,6 +127,7 @@ section {
     height: 1250px;
 }
 
+/* "About Me" and "Contact Me" Contents Styling */
 .flex-row {
     display: flex;
     flex-wrap: wrap;
@@ -128,6 +137,7 @@ section {
     width: 90%;
 }
 
+/* "Work" Section Content Stlyling */
 .flex-row2 {
     display: flex;
     flex-direction: column;
@@ -139,6 +149,7 @@ section {
     border-left: black solid 3px;
 }
 
+/* Profile Image */
 .photo {
     width: 10%;
     height: auto;
@@ -146,6 +157,7 @@ section {
     border-radius: 50%;
 }
 
+/* Section Font and Anchor Elements Styling */
 .section p, .section a {
     line-height: 1.5;
     color: rgb(0, 157, 157);
@@ -161,6 +173,7 @@ section {
     color: black;
 }
 
+/* "Work" Section Font Styling */
 .flex-row2 p {
     display: inline-block;
     text-align: start;
@@ -183,6 +196,7 @@ section {
     left: 0%;
 }
 
+/* Main Project Styling */
 .main-project {
     display: flex;
     flex-wrap: wrap;
@@ -193,6 +207,7 @@ section {
     width: 100%;
 }
 
+/* Other Projects Styling */
 .side-projects {
     display: flex;
     flex-wrap: wrap;
@@ -203,6 +218,7 @@ section {
     width: 100%;
 }
 
+/* Main Project Image Styling */
 .prework {
     background-image: url("images/prework.jpg");
     background-size: cover;
@@ -212,10 +228,12 @@ section {
     position: relative;
 }
 
+/* Main Project Hover Styling */
 .prework:hover {
     opacity: 75%;
 }
 
+/* Horiseon Image Styling */
 .horiseon {
     background-image: url(images/horiseon.jpg);
     background-size: cover;
@@ -226,10 +244,12 @@ section {
     position: relative;
 }
 
+/* Horiseon Hover Styling */
 .horiseon:hover {
     opacity: 75%;
 }
 
+/* Portfolio Image Styling */
 .portfolio {
     background-image: url(images/portfolio.jpg);
     background-size: cover;
@@ -240,10 +260,12 @@ section {
     position: relative; 
 }
 
+/* Portfolio Hover Styling */
 .portfolio:hover {
     opacity: 75%;
 }
 
+/* Placeholder Image Styling */
 .placeholder {
     background-image: url(images/placeholder.jpg);
     background-size: cover;
@@ -255,6 +277,7 @@ section {
     position: relative; 
 }
 
+/* Placeholder Hover Styling */
 .placeholder:hover {
     opacity: 75%;
 }
@@ -263,7 +286,8 @@ footer {
     padding-top: 100px;
     background-color: rgb(74, 80, 95);
 }
-
+  
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
@@ -291,6 +315,7 @@ footer {
     }
 }
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) and (min-width: 768px) {
     header {
       font-size: 50px;
@@ -303,6 +328,7 @@ footer {
         padding-bottom: 0px;
     }
   
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) and (min-width: 600px) {
     header {
         font-size: 50px;
@@ -315,6 +341,7 @@ footer {
           padding-bottom: 0px;
       }
   
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 600px) and (min-width: 0px) {
     header {
         font-size: 50px;
