@@ -220,10 +220,10 @@ section {
 
 /* Main Project Image Styling */
 .prework {
-    background-image: url("images/prework.jpg");
+    background-image: url("images/exploreMiami.png");
     background-size: cover;
     width: 100%;
-    height: 600px;
+    height: 620px;
     margin: 0 1% 2% 1%;
     position: relative;
 }
