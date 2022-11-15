@@ -68,7 +68,8 @@ header nav ul li a:hover {
   
 /* Section Global Styling */
 section {
-    padding: 60px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
   
 /* Hero Styling */
@@ -158,7 +159,7 @@ section {
 }
 
 /* Section Font and Anchor Elements Styling */
-.section p, .section a {
+.section p, br {
     line-height: 1.5;
     color: rgb(0, 157, 157);
     text-decoration: none;
@@ -167,6 +168,11 @@ section {
     font-size: 15px;
     text-align: justify;
     padding: 0 15px 0 15px;
+}
+
+.section a {
+    color: rgb(0, 157, 157);
+    text-decoration: none;
 }
 
 .about {
@@ -203,7 +209,7 @@ section {
     justify-content: center;
     align-items: center;
     margin: 0 auto 0 auto;
-    height: 650px;
+    height: 535px;
     width: 100%;
 }
 
@@ -223,7 +229,7 @@ section {
     background-image: url("images/exploreMiami.png");
     background-size: cover;
     width: 100%;
-    height: 620px;
+    height: 515px;
     margin: 0 1% 2% 1%;
     position: relative;
 }
@@ -235,7 +241,7 @@ section {
 
 /* Horiseon Image Styling */
 .horiseon {
-    background-image: url(images/horiseon.jpg);
+    background-image: url(images/weatherDashboard.png);
     background-size: cover;
     width: 47.5%;
     height: 300px;
@@ -251,7 +257,7 @@ section {
 
 /* Portfolio Image Styling */
 .portfolio {
-    background-image: url(images/portfolio.jpg);
+    background-image: url(images/codingQuiz.png);
     background-size: cover;
     width: 47.5%;
     height: 300px;
