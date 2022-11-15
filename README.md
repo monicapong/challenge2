@@ -20,10 +20,10 @@ The webpage is responsive to screen size and will change to fit the screen of a 
 ### Mobile Screen
 ![Screenshot of project on a mobile screen](assets/images/mobile-screen.jpg)
 
-Link to deployed webpage: https://monicapong.github.io/challenge2/
+Link to deployed webpage: https://monicapong.github.io/portfolio/
 
 ## License
 
 Please refer to the GitHub Repository for licensing information.
-Link to GitHub repository: https://github.com/monicapong/challenge2
+Link to GitHub repository: https://github.com/monicapong/portfolio/
 
