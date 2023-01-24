@@ -225,8 +225,8 @@ section {
 }
 
 /* Main Project Image Styling */
-.prework {
-    background-image: url("images/exploreMiami.png");
+.fitness {
+    background-image: url("images/fitness.png");
     background-size: cover;
     width: 100%;
     height: 515px;
@@ -237,6 +237,17 @@ section {
 /* Main Project Hover Styling */
 .prework:hover {
     opacity: 75%;
+}
+
+/* Horiseon Image Styling */
+.miami {
+    background-image: url(images/exploreMiami.png);
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    position: relative;
 }
 
 /* Horiseon Image Styling */
